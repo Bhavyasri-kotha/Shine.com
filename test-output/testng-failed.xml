@@ -3,13 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scripts.UpdateSkillsTest">
+      <class name="scripts.BlockRecruiterTest">
         <methods>
           <include name="closeapp"/>
           <include name="openapp"/>
           <include name="test"/>
         </methods>
-      </class> <!-- scripts.UpdateSkillsTest -->
+      </class> <!-- scripts.BlockRecruiterTest -->
+      <class name="scripts.MailBoxTest">
+        <methods>
+          <include name="closeapp"/>
+          <include name="openapp"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- scripts.MailBoxTest -->
       <class name="scripts.CertificationTest">
         <methods>
           <include name="test"/>
@@ -17,6 +24,20 @@
           <include name="openapp"/>
         </methods>
       </class> <!-- scripts.CertificationTest -->
+      <class name="scripts.UpdateSkillsTest">
+        <methods>
+          <include name="closeapp"/>
+          <include name="openapp"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- scripts.UpdateSkillsTest -->
+      <class name="scripts.LoginTest">
+        <methods>
+          <include name="closeapp"/>
+          <include name="test"/>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- scripts.LoginTest -->
       <class name="scripts.FollowCareerTest">
         <methods>
           <include name="closeapp"/>
@@ -24,27 +45,6 @@
           <include name="test"/>
         </methods>
       </class> <!-- scripts.FollowCareerTest -->
-      <class name="scripts.JobAlertOutput">
-        <methods>
-          <include name="closeapp"/>
-          <include name="openapp"/>
-          <include name="test"/>
-        </methods>
-      </class> <!-- scripts.JobAlertOutput -->
-      <class name="scripts.SearchJobsTest">
-        <methods>
-          <include name="test"/>
-          <include name="closeapp"/>
-          <include name="openapp"/>
-        </methods>
-      </class> <!-- scripts.SearchJobsTest -->
-      <class name="scripts.CityJobsTest">
-        <methods>
-          <include name="closeapp"/>
-          <include name="openapp"/>
-          <include name="test"/>
-        </methods>
-      </class> <!-- scripts.CityJobsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

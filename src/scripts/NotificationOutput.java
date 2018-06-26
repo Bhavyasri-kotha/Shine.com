@@ -1,6 +1,5 @@
 package scripts;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
@@ -27,7 +26,7 @@ public class NotificationOutput extends Base_Test {
 		lp.clicklogin();
 		Notification n =new Notification(driver);
 		n.notificate(driver);
-		//n.recruiterActivity();
+
 		Thread.sleep(5000);
        
         Actions a=new Actions(driver);

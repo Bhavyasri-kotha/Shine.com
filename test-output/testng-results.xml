@@ -1,118 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" ignored="0" total="11" passed="5">
+<testng-results skipped="4" failed="2" ignored="0" total="10" passed="4">
   <reporter-output>
     <line>
       <![CDATA[Element found]]>
     </line>
     <line>
-      <![CDATA[Element found]]>
+      <![CDATA[Element not found]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="500527" started-at="2018-06-25T12:20:04Z" finished-at="2018-06-25T12:28:25Z">
+  <suite name="Default suite" duration-ms="353302" started-at="2018-06-26T07:15:51Z" finished-at="2018-06-26T07:21:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="500527" started-at="2018-06-25T12:20:04Z" finished-at="2018-06-25T12:28:25Z">
-      <class name="scripts.NotificationOutput">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.NotificationOutput@480bdb19]" name="openapp" is-config="true" duration-ms="19653" started-at="2018-06-25T12:20:05Z" finished-at="2018-06-25T12:20:24Z">
+    <test name="Default test" duration-ms="353302" started-at="2018-06-26T07:15:51Z" finished-at="2018-06-26T07:21:44Z">
+      <class name="scripts.JobForYouTest">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.JobForYouTest@2f943d71]" name="openapp" is-config="true" duration-ms="16298" started-at="2018-06-26T07:17:17Z" finished-at="2018-06-26T07:17:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:scripts.NotificationOutput@480bdb19]" name="test" duration-ms="37631" started-at="2018-06-25T12:20:24Z" finished-at="2018-06-25T12:21:02Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:scripts.JobForYouTest@2f943d71]" name="test" duration-ms="31335" started-at="2018-06-26T07:17:33Z" finished-at="2018-06-26T07:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.JobForYouTest@2f943d71]" name="closeapp" is-config="true" duration-ms="2994" started-at="2018-06-26T07:18:05Z" finished-at="2018-06-26T07:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.JobForYouTest -->
+      <class name="scripts.NotificationOutput">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.NotificationOutput@bd8db5a]" name="openapp" is-config="true" duration-ms="42686" started-at="2018-06-26T07:15:51Z" finished-at="2018-06-26T07:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:scripts.NotificationOutput@bd8db5a]" name="test" duration-ms="36310" started-at="2018-06-26T07:16:34Z" finished-at="2018-06-26T07:17:10Z">
           <reporter-output>
             <line>
               <![CDATA[Element found]]>
             </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.NotificationOutput@480bdb19]" name="closeapp" is-config="true" duration-ms="2983" started-at="2018-06-25T12:21:02Z" finished-at="2018-06-25T12:21:05Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.NotificationOutput@bd8db5a]" name="closeapp" is-config="true" duration-ms="7003" started-at="2018-06-26T07:17:10Z" finished-at="2018-06-26T07:17:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.NotificationOutput -->
-      <class name="scripts.JobAlertOutput">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.JobAlertOutput@2a556333]" name="openapp" is-config="true" duration-ms="18602" started-at="2018-06-25T12:21:05Z" finished-at="2018-06-25T12:21:23Z">
+      <class name="scripts.ForgotPasswordTest">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.ForgotPasswordTest@80503]" name="openapp" is-config="true" duration-ms="18591" started-at="2018-06-26T07:18:08Z" finished-at="2018-06-26T07:18:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.JobAlertOutput@2a556333]" name="test" duration-ms="24372" started-at="2018-06-25T12:21:23Z" finished-at="2018-06-25T12:21:48Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[Element <a href="/myshine/job-alerts/"> could not be scrolled into view
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
-System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 497495db-b76a-49e4-b079-01ce31b86595]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a href="/myshine/job-alerts/"> could not be scrolled into view
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
-System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 497495db-b76a-49e4-b079-01ce31b86595
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at pom.JobAlertProfile.more1(JobAlertProfile.java:85)
-at scripts.JobAlertOutput.test(JobAlertOutput.java:31)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method status="PASS" signature="test()[pri:0, instance:scripts.ForgotPasswordTest@80503]" name="test" duration-ms="36959" started-at="2018-06-26T07:18:26Z" finished-at="2018-06-26T07:19:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.JobAlertOutput@2a556333]" name="closeapp" is-config="true" duration-ms="2672" started-at="2018-06-25T12:21:48Z" finished-at="2018-06-25T12:21:50Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.ForgotPasswordTest@80503]" name="closeapp" is-config="true" duration-ms="3053" started-at="2018-06-26T07:19:03Z" finished-at="2018-06-26T07:19:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
-      </class> <!-- scripts.JobAlertOutput -->
+      </class> <!-- scripts.ForgotPasswordTest -->
       <class name="scripts.CertificationTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.CertificationTest@2a742aa2]" name="openapp" is-config="true" duration-ms="15337" started-at="2018-06-25T12:22:44Z" finished-at="2018-06-25T12:22:59Z">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.CertificationTest@4b553d26]" name="openapp" is-config="true" duration-ms="12955" started-at="2018-06-26T07:19:06Z" finished-at="2018-06-26T07:19:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.CertificationTest@2a742aa2]" name="test" duration-ms="19239" started-at="2018-06-25T12:22:59Z" finished-at="2018-06-25T12:23:18Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.CertificationTest@4b553d26]" name="test" duration-ms="19216" started-at="2018-06-26T07:19:19Z" finished-at="2018-06-26T07:19:38Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
@@ -160,7 +110,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
 at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:638)
 at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
 at pom.CertificationPage.profile(CertificationPage.java:56)
-at scripts.CertificationTest.test(CertificationTest.java:33)
+at scripts.CertificationTest.test(CertificationTest.java:32)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -198,8 +148,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
 System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3696, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 0dd0b07f-00d4-4ac5-9c6a-b7d2698ae90f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16792, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 26e83066-f64d-47d7-86a3-c27a67409ddb
 *** Element info: {Using=xpath, value=//a[@href='/myshine/myprofile/']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -229,210 +179,42 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.CertificationTest@2a742aa2]" name="closeapp" is-config="true" duration-ms="1778" started-at="2018-06-25T12:23:18Z" finished-at="2018-06-25T12:23:20Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.CertificationTest@4b553d26]" name="closeapp" is-config="true" duration-ms="2192" started-at="2018-06-26T07:19:38Z" finished-at="2018-06-26T07:19:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.CertificationTest -->
-      <class name="scripts.ForgotPasswordTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.ForgotPasswordTest@7d70d1b1]" name="openapp" is-config="true" duration-ms="14459" started-at="2018-06-25T12:21:50Z" finished-at="2018-06-25T12:22:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:scripts.ForgotPasswordTest@7d70d1b1]" name="test" duration-ms="36735" started-at="2018-06-25T12:22:05Z" finished-at="2018-06-25T12:22:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.ForgotPasswordTest@7d70d1b1]" name="closeapp" is-config="true" duration-ms="2010" started-at="2018-06-25T12:22:42Z" finished-at="2018-06-25T12:22:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-      </class> <!-- scripts.ForgotPasswordTest -->
       <class name="scripts.SearchJobsTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.SearchJobsTest@3cb1ffe6]" name="openapp" is-config="true" duration-ms="13662" started-at="2018-06-25T12:23:20Z" finished-at="2018-06-25T12:23:34Z">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.SearchJobsTest@69a3d1d]" name="openapp" is-config="true" duration-ms="13970" started-at="2018-06-26T07:19:41Z" finished-at="2018-06-26T07:19:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.SearchJobsTest@3cb1ffe6]" name="test" duration-ms="19220" started-at="2018-06-25T12:23:34Z" finished-at="2018-06-25T12:23:53Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
-System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
-System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.BeanToJsonConverter.convertUsingMethod(BeanToJsonConverter.java:195)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$new$11(BeanToJsonConverter.java:90)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$convertObject$26(BeanToJsonConverter.java:171)
-at java.util.Optional.map(Unknown Source)
-at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:171)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$null$16(BeanToJsonConverter.java:102)
-at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-at java.util.Iterator.forEachRemaining(Unknown Source)
-at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)
-at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
-at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-at java.util.stream.ReferencePipeline.collect(Unknown Source)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$new$18(BeanToJsonConverter.java:103)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$convertObject$26(BeanToJsonConverter.java:171)
-at java.util.Optional.map(Unknown Source)
-at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:171)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$null$19(BeanToJsonConverter.java:109)
-at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$new$20(BeanToJsonConverter.java:108)
-at org.openqa.selenium.json.BeanToJsonConverter.lambda$convertObject$26(BeanToJsonConverter.java:171)
-at java.util.Optional.map(Unknown Source)
-at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:171)
-at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:139)
-at org.openqa.selenium.json.Json.toJson(Json.java:48)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:638)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-at pom.SearchJobsPage.search(SearchJobsPage.java:57)
-at scripts.SearchJobsTest.test(SearchJobsTest.java:33)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.reflect.InvocationTargetException
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.json.BeanToJsonConverter.convertUsingMethod(BeanToJsonConverter.java:191)
-... 60 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: (//a[@class='dropdown-toggle'])[1]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
-System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10308, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1fac3271-af54-4685-aa02-d2563297a7d7
-*** Element info: {Using=xpath, value=(//a[@class='dropdown-toggle'])[1]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:203)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:154)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-... 65 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="test()[pri:0, instance:scripts.SearchJobsTest@69a3d1d]" name="test" duration-ms="30768" started-at="2018-06-26T07:19:55Z" finished-at="2018-06-26T07:20:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.SearchJobsTest@3cb1ffe6]" name="closeapp" is-config="true" duration-ms="2120" started-at="2018-06-25T12:23:53Z" finished-at="2018-06-25T12:23:55Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.SearchJobsTest@69a3d1d]" name="closeapp" is-config="true" duration-ms="2917" started-at="2018-06-26T07:20:25Z" finished-at="2018-06-26T07:20:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.SearchJobsTest -->
       <class name="scripts.MailBoxTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.MailBoxTest@3dfc5fb8]" name="openapp" is-config="true" duration-ms="13716" started-at="2018-06-25T12:23:55Z" finished-at="2018-06-25T12:24:09Z">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.MailBoxTest@86be70a]" name="openapp" is-config="true" duration-ms="13888" started-at="2018-06-26T07:20:28Z" finished-at="2018-06-26T07:20:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:scripts.MailBoxTest@3dfc5fb8]" name="test" duration-ms="36693" started-at="2018-06-25T12:24:09Z" finished-at="2018-06-25T12:24:45Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Element found]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.MailBoxTest@3dfc5fb8]" name="closeapp" is-config="true" duration-ms="2073" started-at="2018-06-25T12:24:45Z" finished-at="2018-06-25T12:24:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-      </class> <!-- scripts.MailBoxTest -->
-      <class name="scripts.CityJobsTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.CityJobsTest@467aecef]" name="openapp" is-config="true" duration-ms="15293" started-at="2018-06-25T12:24:48Z" finished-at="2018-06-25T12:25:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.CityJobsTest@467aecef]" name="test" duration-ms="22094" started-at="2018-06-25T12:25:03Z" finished-at="2018-06-25T12:25:25Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.MailBoxTest@86be70a]" name="test" duration-ms="47486" started-at="2018-06-26T07:20:42Z" finished-at="2018-06-26T07:21:30Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element <a class="dropdown-toggle" href="/job-search/"> is not clickable at point (169.84166717529297,27.5) because another element <div id="opaque" class="noBg"> obscures it
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
-System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16448, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 3656b352-b4b4-4327-bcd2-7a07abc08342]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="dropdown-toggle" href="/job-search/"> is not clickable at point (169.84166717529297,27.5) because another element <div id="opaque" class="noBg"> obscures it
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
-System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16448, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 3656b352-b4b4-4327-bcd2-7a07abc08342
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at pom.CityJobsPage.search(CityJobsPage.java:58)
-at scripts.CityJobsTest.test(CityJobsTest.java:28)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at Genericlib.BasePage.visibility(BasePage.java:22)
+at pom.MailBoxPage.mail(MailBoxPage.java:63)
+at scripts.MailBoxTest.test(MailBoxTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -460,65 +242,245 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Element not found]]>
+            </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.CityJobsTest@467aecef]" name="closeapp" is-config="true" duration-ms="1795" started-at="2018-06-25T12:25:25Z" finished-at="2018-06-25T12:25:27Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.MailBoxTest@86be70a]" name="closeapp" is-config="true" duration-ms="2071" started-at="2018-06-26T07:21:30Z" finished-at="2018-06-26T07:21:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
-      </class> <!-- scripts.CityJobsTest -->
+      </class> <!-- scripts.MailBoxTest -->
       <class name="scripts.LoginTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.LoginTest@4d50efb8]" name="openapp" is-config="true" duration-ms="14439" started-at="2018-06-25T12:25:27Z" finished-at="2018-06-25T12:25:41Z">
+        <test-method status="FAIL" signature="openapp()[pri:0, instance:scripts.LoginTest@480bdb19]" name="openapp" is-config="true" duration-ms="12484" started-at="2018-06-26T07:21:32Z" finished-at="2018-06-26T07:21:44Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at Genericlib.Base_Test.openapp(Base_Test.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:scripts.LoginTest@4d50efb8]" name="test" duration-ms="17035" started-at="2018-06-25T12:25:41Z" finished-at="2018-06-25T12:25:58Z">
+        <test-method status="SKIP" signature="test()[pri:0, instance:scripts.LoginTest@480bdb19]" name="test" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at Genericlib.Base_Test.openapp(Base_Test.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.LoginTest@4d50efb8]" name="closeapp" is-config="true" duration-ms="2002" started-at="2018-06-25T12:25:58Z" finished-at="2018-06-25T12:26:00Z">
+        <test-method status="SKIP" signature="closeapp()[pri:0, instance:scripts.LoginTest@480bdb19]" name="closeapp" is-config="true" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.LoginTest -->
       <class name="scripts.BlockRecruiterTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.BlockRecruiterTest@7e2d773b]" name="openapp" is-config="true" duration-ms="13361" started-at="2018-06-25T12:26:00Z" finished-at="2018-06-25T12:26:14Z">
+        <test-method status="SKIP" signature="openapp()[pri:0, instance:scripts.BlockRecruiterTest@2a556333]" name="openapp" is-config="true" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:scripts.BlockRecruiterTest@7e2d773b]" name="test" duration-ms="49503" started-at="2018-06-25T12:26:14Z" finished-at="2018-06-25T12:27:03Z">
+        <test-method status="SKIP" signature="test()[pri:0, instance:scripts.BlockRecruiterTest@2a556333]" name="test" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at Genericlib.Base_Test.openapp(Base_Test.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.BlockRecruiterTest@7e2d773b]" name="closeapp" is-config="true" duration-ms="1803" started-at="2018-06-25T12:27:03Z" finished-at="2018-06-25T12:27:05Z">
+        <test-method status="SKIP" signature="closeapp()[pri:0, instance:scripts.BlockRecruiterTest@2a556333]" name="closeapp" is-config="true" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.BlockRecruiterTest -->
       <class name="scripts.UpdateSkillsTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.UpdateSkillsTest@2173f6d9]" name="openapp" is-config="true" duration-ms="14221" started-at="2018-06-25T12:27:05Z" finished-at="2018-06-25T12:27:19Z">
+        <test-method status="SKIP" signature="openapp()[pri:0, instance:scripts.UpdateSkillsTest@7d70d1b1]" name="openapp" is-config="true" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.UpdateSkillsTest@2173f6d9]" name="test" duration-ms="19874" started-at="2018-06-25T12:27:19Z" finished-at="2018-06-25T12:27:39Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method status="SKIP" signature="test()[pri:0, instance:scripts.UpdateSkillsTest@7d70d1b1]" name="test" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Element <a href="/myshine/myprofile/"> could not be scrolled into view
+              <![CDATA[Browsing context has been discarded
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
 System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21460, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 8a3eec06-8656-4c71-94a2-548096009e8c]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a href="/myshine/myprofile/"> could not be scrolled into view
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
 System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21460, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 8a3eec06-8656-4c71-94a2-548096009e8c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -529,21 +491,17 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at pom.UpdateSkillsPage.profile(UpdateSkillsPage.java:62)
-at scripts.UpdateSkillsTest.test(UpdateSkillsTest.java:33)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at Genericlib.Base_Test.openapp(Base_Test.java:15)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -565,37 +523,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.UpdateSkillsTest@2173f6d9]" name="closeapp" is-config="true" duration-ms="1975" started-at="2018-06-25T12:27:39Z" finished-at="2018-06-25T12:27:41Z">
+        <test-method status="SKIP" signature="closeapp()[pri:0, instance:scripts.UpdateSkillsTest@7d70d1b1]" name="closeapp" is-config="true" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- scripts.UpdateSkillsTest -->
       <class name="scripts.FollowCareerTest">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.FollowCareerTest@307f6b8c]" name="openapp" is-config="true" duration-ms="13332" started-at="2018-06-25T12:27:41Z" finished-at="2018-06-25T12:27:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:scripts.FollowCareerTest@307f6b8c]" name="test" duration-ms="27385" started-at="2018-06-25T12:27:54Z" finished-at="2018-06-25T12:28:22Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method status="SKIP" signature="test()[pri:0, instance:scripts.FollowCareerTest@2a742aa2]" name="test" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Element <a href="http://info.shine.com/"> could not be scrolled into view
+              <![CDATA[Browsing context has been discarded
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
 System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20808, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: d2b1fa65-060e-403d-9a26-ae87173412c5]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a href="http://info.shine.com/"> could not be scrolled into view
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
 System info: host: 'LAPTOP-JV92ANUQ', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20808, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: d2b1fa65-060e-403d-9a26-ae87173412c5
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4576, moz:profile: C:\Users\bhavya sri\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd250699-7b32-404a-bce0-ff170e1d296d
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -606,21 +560,17 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at pom.FollowCareer.more(FollowCareer.java:51)
-at scripts.FollowCareerTest.test(FollowCareerTest.java:27)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at Genericlib.Base_Test.openapp(Base_Test.java:15)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -642,11 +592,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.FollowCareerTest@307f6b8c]" name="closeapp" is-config="true" duration-ms="3369" started-at="2018-06-25T12:28:22Z" finished-at="2018-06-25T12:28:25Z">
+        <test-method status="SKIP" signature="openapp()[pri:0, instance:scripts.FollowCareerTest@2a742aa2]" name="openapp" is-config="true" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="SKIP" signature="closeapp()[pri:0, instance:scripts.FollowCareerTest@2a742aa2]" name="closeapp" is-config="true" duration-ms="0" started-at="2018-06-26T07:21:44Z" finished-at="2018-06-26T07:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
